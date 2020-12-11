@@ -1,0 +1,57 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="1c1bb57998ca8e31d25fa01833000400">Waveform_TestExhaustivo_TIEMPOS.asdb</database>
+    </databases>
+    <signallists>
+        <signallist id="0">
+        <signal>/TestMulti4/STB</signal>
+        <signal>/TestMulti4/CLK</signal>
+        <signal>/TestMulti4/DONE</signal>
+        <signal>/TestMulti4/Operando1</signal>
+        <signal>/TestMulti4/Operando2</signal>
+        <signal>/TestMulti4/Producto</signal>
+        <signal>/TestMulti4/MIN</signal>
+        <signal>/TestMulti4/MAX</signal>
+        <signal>/TestMulti4/AVG</signal>
+        <signal>/TestMulti4/T_MIN</signal>
+        <signal>/TestMulti4/T_MAX</signal>
+        <signal>/TestMulti4/T_AVG</signal>
+        <signal>/TestMulti4/TIM/total_dones</signal>
+        <signal>/TestMulti4/TIM/total_ticks</signal>
+        <signal>/TestMulti4/TIM/current_ticks</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="0" end_time="923679" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="18740000" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>

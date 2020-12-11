@@ -58,8 +58,8 @@ begin
 	ACC  : ShiftN     port map(CLK, INIT, ADD, '0', '0', SUM, outACC);
 	Rout : Latch8     port map(outACC, CLK, '1', '1', RES);  
 	
-    -- Esta linea podria obviarse y pasar outRA(0) al port map del SM : Controller
-	-- Se la utiliza para facilitar lectura
+  -- Esta linea podria obviarse y pasar outRA(0) al port map del SM : Controller
+	-- Se la utiliza para facilitar lectura de la waveform
 	LSB <= outRA(0);
 	
 	-- NOR entre los bits del registro A.
